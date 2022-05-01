@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/nacer-zimu/EAT/eat-workspace/eat-mar2022-weekend-web-automation-framework/test-output/html]]>
+    </line>
+  </reporter-output>
+  <suite name="Amazon test" duration-ms="49748" started-at="2022-04-24T22:19:15Z" finished-at="2022-04-24T22:20:05Z">
+    <groups>
+    </groups>
+    <test name="search" duration-ms="49748" started-at="2022-04-24T22:19:15Z" finished-at="2022-04-24T22:20:05Z">
+      <class name="test.amazon.TestSearchMultipleItems">
+        <test-method status="PASS" signature="beforeTest(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.amazon.TestSearchMultipleItems@2096442d]" name="beforeTest" is-config="true" duration-ms="5043" started-at="2022-04-24T22:19:42Z" finished-at="2022-04-24T22:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.amazon.TestSearchMultipleItems@2096442d]" name="startExtent" is-config="true" duration-ms="0" started-at="2022-04-24T22:19:47Z" finished-at="2022-04-24T22:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.amazon.TestSearchMultipleItems.searchMultipleItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="searchMultipleItems()[pri:0, instance:test.amazon.TestSearchMultipleItems@2096442d]" name="searchMultipleItems" duration-ms="17065" started-at="2022-04-24T22:19:47Z" finished-at="2022-04-24T22:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMultipleItems -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.amazon.TestSearchMultipleItems@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="565" started-at="2022-04-24T22:20:04Z" finished-at="2022-04-24T22:20:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchMultipleItems status=SUCCESS method=TestSearchMultipleItems.searchMultipleItems()[pri:0, instance:test.amazon.TestSearchMultipleItems@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.amazon.TestSearchMultipleItems -->
+      <class name="test.amazon.TestSearchSingleItems">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="extentSetup" is-config="true" duration-ms="346" started-at="2022-04-24T22:19:15Z" finished-at="2022-04-24T22:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a619c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/nacer-zimu/EAT/eat-workspace/eat-mar2022-weekend-web-automation-framework/test-output/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="beforeTest(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="beforeTest" is-config="true" duration-ms="6935" started-at="2022-04-24T22:19:15Z" finished-at="2022-04-24T22:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="startExtent" is-config="true" duration-ms="6" started-at="2022-04-24T22:19:22Z" finished-at="2022-04-24T22:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.amazon.TestSearchSingleItems.test4()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="test4" duration-ms="4027" started-at="2022-04-24T22:19:22Z" finished-at="2022-04-24T22:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="afterEachTestMethod" is-config="true" duration-ms="1261" started-at="2022-04-24T22:19:26Z" finished-at="2022-04-24T22:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test4 status=SUCCESS method=TestSearchSingleItems.test4()[pri:0, instance:test.amazon.TestSearchSingleItems@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="beforeTest(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="beforeTest" is-config="true" duration-ms="5100" started-at="2022-04-24T22:19:27Z" finished-at="2022-04-24T22:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="startExtent" is-config="true" duration-ms="0" started-at="2022-04-24T22:19:32Z" finished-at="2022-04-24T22:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.amazon.TestSearchSingleItems.test5()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="test5" duration-ms="1841" started-at="2022-04-24T22:19:32Z" finished-at="2022-04-24T22:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="afterEachTestMethod" is-config="true" duration-ms="459" started-at="2022-04-24T22:19:34Z" finished-at="2022-04-24T22:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5 status=SUCCESS method=TestSearchSingleItems.test5()[pri:0, instance:test.amazon.TestSearchSingleItems@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:test.amazon.TestSearchSingleItems@735b478]" name="generateReport" is-config="true" duration-ms="40" started-at="2022-04-24T22:20:05Z" finished-at="2022-04-24T22:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- test.amazon.TestSearchSingleItems -->
+      <class name="test.amazon.TestFloatingMenu">
+        <test-method status="PASS" signature="beforeTest(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.amazon.TestFloatingMenu@2c9f9fb0]" name="beforeTest" is-config="true" duration-ms="5479" started-at="2022-04-24T22:19:35Z" finished-at="2022-04-24T22:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:test.amazon.TestFloatingMenu@2c9f9fb0]" name="test1" duration-ms="1571" started-at="2022-04-24T22:19:40Z" finished-at="2022-04-24T22:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.amazon.TestFloatingMenu@2c9f9fb0]" name="startExtent" is-config="true" duration-ms="0" started-at="2022-04-24T22:19:40Z" finished-at="2022-04-24T22:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.amazon.TestFloatingMenu.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.amazon.TestFloatingMenu@2c9f9fb0]" name="afterEachTestMethod" is-config="true" duration-ms="368" started-at="2022-04-24T22:19:42Z" finished-at="2022-04-24T22:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=TestFloatingMenu.test1()[pri:0, instance:test.amazon.TestFloatingMenu@2c9f9fb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test.amazon.TestFloatingMenu -->
+    </test> <!-- search -->
+  </suite> <!-- Amazon test -->
+</testng-results>

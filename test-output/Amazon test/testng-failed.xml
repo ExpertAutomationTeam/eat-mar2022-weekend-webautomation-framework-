@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon test]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="osVersion" value="Sierra"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browserVersion" value="80"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://www.amazon.com"/>
+  <test thread-count="5" name="search(failed)">
+    <classes>
+      <class name="test.amazon.TestSearchSingleItems">
+        <methods>
+          <include name="test4"/>
+          <include name="beforeTest"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- test.amazon.TestSearchSingleItems -->
+    </classes>
+  </test> <!-- search(failed) -->
+</suite> <!-- Failed suite [Amazon test] -->
